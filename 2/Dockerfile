@@ -7,6 +7,6 @@ RUN apt-get install -y python3-pip
 RUN pip3 install matplotlib
 RUN pip3 install influxdb
 
-COPY task2/ /PRACT/task2 
+COPY 2/ /PRACT/2
 
 CMD ["python3", "main.py"]
